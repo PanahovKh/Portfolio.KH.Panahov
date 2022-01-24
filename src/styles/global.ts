@@ -66,7 +66,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     html{
-        font-size: 70%;
+        font-size: 68%;
     }
     body{
         font-size: 1.9rem;

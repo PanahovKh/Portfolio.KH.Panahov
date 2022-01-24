@@ -103,7 +103,7 @@ export const Container = styled.header`
         border-radius: 100px;
         position: relative;
         margin-left: auto;
-        right: 10px;
+        right: 20px;
     }
 
     @media only screen and (max-width: 800px) {
@@ -114,7 +114,7 @@ export const Container = styled.header`
 
     label:after {
         content: "";
-        background: #FFF;
+        background: #FFFF;
         width: 20px;
         height: 20px;
         -webkit-border-radius: 50%;
