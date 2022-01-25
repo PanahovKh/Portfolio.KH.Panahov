@@ -19,7 +19,7 @@ export const Hero = () => {
                     <h3>Front End developer</h3>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn='fadeInUp' delay={0.6 * 1000}>
-                    <p className='small-resume' >Highly motivated and skilled front end developer with knowledge of serverside languages.</p>
+                    <p className='small-resume' >I'm a Project Maneger with a focus on web development with JavaScript.</p>
                 </ScrollAnimation>
 
                 <ScrollAnimation animateIn='fadeInUp' delay={0.8 * 1000}>
