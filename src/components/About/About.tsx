@@ -8,6 +8,7 @@ import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
+import photo from "../../assets/phto-min.jpg"
 
     export const About = () => {
         return (
@@ -60,6 +61,11 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
                             </ScrollAnimation>
                         </div>
                     </div>
+                </div>
+                <div className='about-image'>
+                    <ScrollAnimation animateIn='fadeInRight' delay={0.5 * 1000}>
+                        <img src={photo} alt='Manitor and me'/>
+                    </ScrollAnimation>
                 </div>
             </Container>
         )

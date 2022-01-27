@@ -5,7 +5,7 @@ export const Container = styled.section`
 
     margin-top: 12rem;
     display: grid;
-    grid-tamplate-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
 
     .hard-skills{
