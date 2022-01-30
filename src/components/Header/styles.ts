@@ -15,6 +15,14 @@ export const Container = styled.header`
     width: 100vw;
     z-index: 1000;
 
+    .kh_logo {
+        display: flex;
+        gap: 0.5rem;
+        img{
+            width: 4.5rem;
+        }
+    }
+
     nav {
         display: flex;
         align-items: center;

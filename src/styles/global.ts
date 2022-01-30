@@ -102,9 +102,6 @@ export const GlobalStyle = createGlobalStyle`
         color: #FFFF;
 
     }
-    .green {
-        color: var(--green);
-    }
 }
 
 `

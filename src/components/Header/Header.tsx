@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Container  } from './styles';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { NavHashLink, HashLink } from 'react-router-hash-link';
+import KH_logo from "../../assets/KH_Logo.svg"
 
 import CV from '../../assets/CV_Khanali_Panahov.pdf'
 
@@ -22,8 +23,10 @@ export const Header = () => {
         <Container className='header-fixed'>
             <Router>
                 <HashLink smooth to="#home" className='logo'>
-                    <span className='green'>KH </span>
-                    <span>Panahov</span>
+                    <div className='kh_logo'>
+                        <span className='green'> <img src={KH_logo} alt='logo' /> </span>
+                        <span>Panahov</span>
+                    </div>
                 </HashLink>
 
                 <input 

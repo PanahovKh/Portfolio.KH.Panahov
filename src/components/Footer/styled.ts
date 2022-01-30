@@ -15,6 +15,14 @@ export const Container = styled.footer`
         }
     }
 
+    .kh_logo {
+        display: flex;
+        gap: 0.5rem;
+        img{
+            width: 4.5rem;
+        }
+    }
+
     p{
         latter-spacing: 0.2rem;
         display: flex;

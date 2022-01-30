@@ -3,13 +3,16 @@ import linkedinIcon from '../../assets/linkedin.png'
 import githubIcon from '../../assets/github.png'
 import instagramIcon from '../../assets/instagram.png'
 import discordIcon from '../../assets/discord.png'
+import KH_logo from "../../assets/KH_Logo.svg"
 
 export const Footer = () => {
     return (
         <Container className='footer'>
             <a href='/' className='logo'>
-                <span className='green'>KH </span>
-                <span>Panahov</span>
+                <div className='kh_logo'>
+                    <span className='green'> <img src={KH_logo} alt='logo' /> </span>
+                    <span>Panahov</span>
+                </div>
             </a>
             <div>
                 <p>
