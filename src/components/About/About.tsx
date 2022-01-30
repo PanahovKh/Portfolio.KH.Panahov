@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container } from './styled';
 import ScrollAnimation from 'react-animate-on-scroll';
-
 import reactIcon from '../../assets/react-icon.svg'
 import jsIcon from '../../assets/js-icon.svg';
 import cssIcon from "../../assets/css-icon.svg";

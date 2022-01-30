@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container  } from './styled';
+import { Form } from '../Form/Form'
 import emailIcon from '../../assets/email-icon.svg'
 import phoneIcon from '../../assets/phone-icon.svg'
 
 export const Contacts = () => {
     return (
-        <Container id="#contact">
+        <Container id="contact">
             <header>
                 <h2>Contact me</h2>
                 <p> If you saw my potential or want to talk with me, you can send me a message. </p>
@@ -20,6 +21,7 @@ export const Contacts = () => {
                     <a href='tel:+994705845314' >(+994)70  5845314</a>
                 </div>
             </div>
+            <Form></Form>
         </Container>
     )
 };
