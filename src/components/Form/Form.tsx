@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import { toast, ToastContainer } from 'react-toastify'
 import { useForm, ValidationError } from '@formspree/react'
 import validator from 'validator';

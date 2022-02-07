@@ -43,7 +43,7 @@ export const GlobalStyle = createGlobalStyle`
         form{
             input, textarea{
                 transition: 0.5s;
-                border: solid 1px solid (--black);
+                border: 1px solid var(--black);
                 color: var(--black);
                 &::placeholder{
                     transition: 0.5s;
